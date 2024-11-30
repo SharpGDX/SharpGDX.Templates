@@ -1,0 +1,40 @@
+{
+  "icon": "icon.png",
+  "author": "SharpGDX",
+  "classifications": [
+    "SharpGDX",
+    "Games",
+    "Class Library",
+    "Library",
+    "Windows",
+    "Linux",
+    "macOS"
+  ],
+  "name": "SharpGDX Cross-Platform Class Library",
+  "identity": "SharpGDX.Templates.ClassLibrary",
+  "shortName": "sharpgdxclasslibrary",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "primaryOutputs": [
+    {
+      "path": "ClassLibrary.csproj"
+    }
+  ],
+  "sourceName": "ClassLibrary",
+  "preferNameDirectory": true,
+  "description": "A SharpGDX class library project.",
+  "postActions": [
+    {
+      "description": "Restore NuGet packages required by this project.",
+      "manualInstructions": [
+        {
+          "text": "Run 'dotnet restore'"
+        }
+      ],
+      "actionId": "210D431B-A78B-4D2F-B762-4ED3E3EA9025",
+      "continueOnError": true
+    }
+  ]
+}

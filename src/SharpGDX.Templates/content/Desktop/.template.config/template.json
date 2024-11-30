@@ -1,0 +1,39 @@
+{
+  "icon": "icon.png",
+  "author": "SharpGDX",
+  "classifications": [
+    "SharpGDX",
+    "Games",
+    "Desktop",
+    "Windows",
+    "Linux",
+    "macOS"
+  ],
+  "name": "SharpGDX Cross-Platform Desktop Application",
+  "identity": "SharpGDX.Templates.Desktop",
+  "shortName": "sharpgdxdesktop",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "primaryOutputs": [
+    {
+      "path": "Desktop.csproj"
+    }
+  ],
+  "sourceName": "Desktop",
+  "preferNameDirectory": true,
+  "description": "A SharpGDX applicatoin project for Windows, Linux and macOS.",
+  "postActions": [
+    {
+      "description": "Restore NuGet packages required by this project.",
+      "manualInstructions": [
+        {
+          "text": "Run 'dotnet restore'"
+        }
+      ],
+      "actionId": "210D431B-A78B-4D2F-B762-4ED3E3EA9025",
+      "continueOnError": true
+    }
+  ]
+}

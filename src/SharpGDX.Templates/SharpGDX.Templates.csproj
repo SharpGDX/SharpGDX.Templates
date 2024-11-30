@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<PackageType>Template</PackageType>
+		<Title>SharpGDX Project Templates</Title>
+		<Description>This package contains the project templates for SharpGDX.</Description>
+		<Authors>SharpGDX</Authors>
+		<Version>1.13.0-alpha.0</Version>
+		<PackageId>SharpGDX.Templates</PackageId>
+		<IncludeContentInPack>true</IncludeContentInPack>
+		<IncludeBuildOutput>false</IncludeBuildOutput>
+		<ContentTargetFolders>content</ContentTargetFolders>
+		<NoDefaultExcludes>true</NoDefaultExcludes>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<LocalizeTemplates>false</LocalizeTemplates>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Content Include="content\**\*" Exclude="content\**\bin\**;content\**\obj\**" />
+		<Compile Remove="**\*" />
+	</ItemGroup>
+
+</Project>
